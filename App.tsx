@@ -25,6 +25,11 @@ const App: React.FC = () => {
     }
   }, [theme]);
 
+  // Scroll to top on every view change for a natural navigation experience
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [view]);
+
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
