@@ -76,7 +76,7 @@ const App: React.FC = () => {
       case 'recipes':
         return <RecipesScreen bookmarks={bookmarks} toggleBookmark={toggleBookmark} />;
       case 'resources':
-        return <ResourcesScreen bookmarks={bookmarks} toggleBookmark={toggleBookmark} />;
+        return <ResourcesScreen bookmarks={bookmarks} toggleBookmark={toggleBookmark} setView={setView} />;
       case 'diary':
         return <DiaryScreen entries={diaryEntries} addEntry={addDiaryEntry} deleteEntry={deleteDiaryEntry} />;
       default:

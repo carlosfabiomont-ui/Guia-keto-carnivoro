@@ -1,14 +1,15 @@
 import React from 'react';
 import { resources } from '../data/resources';
-import { ResourceCategory } from '../types';
+import { ResourceCategory, View } from '../types';
 import { ResourceLink } from '../components/ResourceLink';
 
 interface ResourcesScreenProps {
   bookmarks: string[];
   toggleBookmark: (id: string) => void;
+  setView: (view: View) => void;
 }
 
-const ResourcesScreen: React.FC<ResourcesScreenProps> = ({ bookmarks, toggleBookmark }) => {
+const ResourcesScreen: React.FC<ResourcesScreenProps> = ({ bookmarks, toggleBookmark, setView }) => {
   const categorizedResources = resources.reduce((acc, resource) => {
     (acc[resource.category] = acc[resource.category] || []).push(resource);
     return acc;
@@ -32,6 +33,7 @@ const ResourcesScreen: React.FC<ResourcesScreenProps> = ({ bookmarks, toggleBook
                     resource={resource}
                     isBookmarked={bookmarks.includes(`resource:${resource.id}`)}
                     toggleBookmark={() => toggleBookmark(`resource:${resource.id}`)}
+                    setView={setView}
                   />
                 ))}
               </div>

@@ -48,5 +48,6 @@ export interface Resource {
   title: string;
   description: string;
   author: string;
-  url: string;
+  url?: string;
+  internalView?: View;
 }

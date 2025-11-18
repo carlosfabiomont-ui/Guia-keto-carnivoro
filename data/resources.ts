@@ -29,10 +29,10 @@ export const resources: Resource[] = [
   {
     id: 'app_4',
     category: 'Apps e Ferramentas',
-    title: "Calculadora Carnívora Online",
-    description: "Calcule suas necessidades de proteínas e gorduras na dieta carnívora.",
-    author: "Ferramenta Digital",
-    url: "https://carnivoreaurelius.com/carnivore-diet-macro-calculator/"
+    title: "Calculadora de Macros",
+    description: "Calcule suas necessidades de proteínas e gorduras com nossa ferramenta interna.",
+    author: "Ferramenta do Guia",
+    internalView: { current: 'moduleDetail', moduleId: 7 }
   },
 
   // Canais Educativos
