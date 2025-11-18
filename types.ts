@@ -29,7 +29,7 @@ export interface Module {
   content: ModuleContent[];
 }
 
-export type RecipeCategory = 'Pequeno-Almoço' | 'Carne Vermelha' | 'Aves e Refeições Rápidas' | 'Peixes e Frutos do Mar' | 'Snacks e Aperitivos' | 'Sobremesas' | 'Crianças';
+export type RecipeCategory = 'Café da Manhã' | 'Carne Vermelha' | 'Aves e Refeições Rápidas' | 'Peixes e Frutos do Mar' | 'Snacks e Aperitivos' | 'Sobremesas' | 'Crianças';
 
 export interface Recipe {
   id: string;

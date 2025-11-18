@@ -11,7 +11,7 @@ interface RecipesScreenProps {
 const RecipesScreen: React.FC<RecipesScreenProps> = ({ bookmarks, toggleBookmark }) => {
   const [activeFilter, setActiveFilter] = useState<RecipeCategory | 'Todas'>('Todas');
   
-  const filters: (RecipeCategory | 'Todas')[] = ['Todas', 'Pequeno-Almoço', 'Carne Vermelha', 'Aves e Refeições Rápidas', 'Peixes e Frutos do Mar', 'Snacks e Aperitivos', 'Sobremesas', 'Crianças'];
+  const filters: (RecipeCategory | 'Todas')[] = ['Todas', 'Café da Manhã', 'Carne Vermelha', 'Aves e Refeições Rápidas', 'Peixes e Frutos do Mar', 'Snacks e Aperitivos', 'Sobremesas', 'Crianças'];
 
   const filteredRecipes = useMemo(() => {
     if (activeFilter === 'Todas') {

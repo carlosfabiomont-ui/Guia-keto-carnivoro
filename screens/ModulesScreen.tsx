@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { modules } from '../data/modules';
 import { ModuleCard } from '../components/ModuleCard';

@@ -8,18 +8,20 @@ export const modules: Module[] = [
     icon: "📜",
     content: [
       { type: 'heading', content: "Dieta Carnívora: Definição Clara e Simples" },
-      { type: 'paragraph', content: "A dieta carnívora é um padrão alimentar que consiste exclusivamente em produtos de origem animal, como carnes, ovos e alguns laticínios. Diferente de outras dietas restritivas, seu foco principal é remover completamente carboidratos vegetais e processados, permitindo que o corpo funcione a partir de proteínas e gorduras naturais." },
+      { type: 'paragraph', content: "A dieta carnívora é um padrão alimentar que consiste exclusivamente em produtos de origem animal, como carnes, ovos e alguns laticínios de alta gordura. Diferente de outras dietas restritivas, seu foco principal é remover completamente carboidratos de origem vegetal e alimentos processados, permitindo que o corpo utilize proteínas e gorduras como suas fontes primárias de energia." },
       { type: 'quote', content: "A dieta carnívora não é apenas um plano alimentar; é um caminho para a clareza mental, energia sustentável e um corpo mais forte.", author: "Keto Carnívoro" },
+      
       { type: 'heading', content: "Breve Histórico e Contexto Científico" },
-      { type: 'paragraph', content: "Embora pareça uma tendência moderna, a dieta carnívora tem raízes antigas. Povos como os inuítes ou mongóis tradicionais consumiam dietas predominantemente animais, adaptando-se perfeitamente ao ambiente. Nos últimos anos, pesquisas e relatos clínicos têm chamado atenção para seus potenciais benefícios, incluindo redução de inflamação, melhora de marcadores metabólicos e aumento da saciedade." },
-      { type: 'heading', content: "Base Científica e Evidências" },
-      { type: 'paragraph', content: "Um dos pilares da dieta carnívora é a compreensão do metabolismo energético. Ao eliminar carboidratos, o corpo entra em um estado de cetose nutricional, utilizando gordura como principal fonte de energia. Pesquisas indicam que essa adaptação pode levar a uma maior estabilidade nos níveis de açúcar no sangue, menor inflamação e uma eficiência energética superior." },
+      { type: 'paragraph', content: "Embora pareça uma tendência moderna, a dieta carnívora tem raízes antigas. Povos como os Inuítes, Massai e Mongóis consumiam dietas predominantemente animais, adaptando-se perfeitamente a ambientes onde a vegetação era escassa. Eles demonstravam uma saúde robusta, livre de muitas das doenças crônicas que afetam as sociedades modernas. Nos últimos anos, a ciência começou a investigar os relatos clínicos e anedóticos, revelando potenciais benefícios na redução de inflamação, melhora de marcadores metabólicos e aumento da saciedade." },
+      
+      { type: 'heading', content: "Base Científica: Por que Funciona?" },
+      { type: 'paragraph', content: "O pilar da dieta carnívora é a otimização do metabolismo energético. Ao eliminar carboidratos, o corpo entra em um estado de cetose nutricional, onde a gordura (e não a glicose) se torna a principal fonte de combustível. Este estado metabólico está associado a uma maior estabilidade do açúcar no sangue, menor inflamação sistêmica e uma eficiência energética superior para muitas pessoas." },
       { type: 'list', content: [
-        "Metabolismo Otimizado: Estudos comparativos mostram que dietas com baixo carboidrato podem melhorar a flexibilidade metabólica e a sensibilidade à insulina.",
-        "Saciedade e Controle de Peso: A densidade nutricional de proteínas e gorduras animais promove saciedade duradoura.",
-        "Precedentes Históricos: Povos tradicionais, como os Inuítes e os Massai, são exemplos vivos da viabilidade e dos benefícios de uma alimentação focada em produtos animais."
+        "Metabolismo Otimizado: Estudos comparativos mostram que dietas com baixo carboidrato podem melhorar a flexibilidade metabólica, que é a capacidade do corpo de alternar eficientemente entre queimar gordura e glicose, e aumentar a sensibilidade à insulina.",
+        "Densidade Nutricional Incomparável: Alimentos de origem animal, especialmente carnes de órgãos, são as fontes mais biodisponíveis de vitaminas essenciais (como B12, A, D, K2), minerais (ferro heme, zinco, selênio) e todos os aminoácidos essenciais.",
+        "Eliminação de Antinutrientes: Plantas contêm compostos de defesa (como lectinas, fitatos e oxalatos) que podem interferir na absorção de nutrientes e causar irritação intestinal em indivíduos sensíveis. A dieta carnívora elimina completamente essas substâncias."
       ]},
-      { type: 'evidence', content: "Pesquisadores como Dr. Shawn Baker e Dr. Paul Saladino têm compilado e analisado uma vasta gama de evidências anedóticas e estudos, demonstrando os potenciais benefícios da dieta carnívora na saúde.", author: "Pioneiros na Pesquisa" },
+      { type: 'evidence', content: "Pesquisadores como Dr. Shawn Baker e Dr. Paul Saladino têm compilado e analisado uma vasta gama de evidências anedóticas e estudos, demonstrando os potenciais benefícios da dieta carnívora na saúde, desde a reversão de doenças autoimunes até a otimização da performance atlética.", author: "Pioneiros na Pesquisa" },
     ],
   },
   {
@@ -28,17 +30,37 @@ export const modules: Module[] = [
     subtitle: "Emagrecimento, energia e clareza mental.",
     icon: "🌟",
     content: [
-      { type: 'heading', content: "Emagrecimento Sustentável" },
-      { type: 'paragraph', content: "Uma das razões mais comuns para iniciar a dieta carnívora é o controle de peso de forma simples e eficaz. Por eliminar carboidratos e focar em proteínas e gorduras naturais, o corpo tende a:" },
+      { type: 'heading', content: "Emagrecimento Sustentável e Composição Corporal" },
+      { type: 'paragraph', content: "O controle de peso é um dos benefícios mais relatados. Ao focar em proteínas e gorduras, a dieta promove uma saciedade profunda e duradoura, o que naturalmente leva a uma menor ingestão calórica sem a necessidade de contar calorias. O corpo tende a:" },
       { type: 'list', content: [
-        "Sentir mais saciedade, evitando lanches desnecessários e fome constante.",
-        "Reduzir picos de insulina, favorecendo a queima de gordura.",
-        "Simplificar escolhas alimentares, tornando o planejamento menos estressante."
+        "Sentir mais saciedade: Proteínas e gorduras são digeridas mais lentamente, mantendo a fome sob controle por mais tempo e eliminando os desejos por snacks.",
+        "Reduzir picos de insulina: A ausência de carboidratos mantém os níveis de insulina baixos e estáveis, sinalizando ao corpo para queimar gordura armazenada como energia.",
+        "Simplificar escolhas alimentares: A simplicidade da dieta reduz a 'fadiga de decisão' e o estresse associado ao planejamento de refeições complexas."
       ]},
-      { type: 'heading', content: "Saúde Metabólica e Energia" },
-      { type: 'paragraph', content: "A dieta também pode otimizar marcadores metabólicos, como glicemia e colesterol. Estudos e relatos de usuários sugerem melhora nos níveis de triglicerídeos e HDL, redução da inflamação e desconfortos digestivos, e energia mais constante durante o dia." },
-      { type: 'heading', content: "Clareza Mental e Foco" },
-      { type: 'paragraph', content: "Muitos iniciantes relatam melhora significativa na concentração e memória. Isso ocorre porque a dieta evita picos de glicose, fornece cetonas e aminoácidos essenciais que suportam a função cerebral, e reduz a inflamação sistêmica que pode interferir na clareza mental." }
+      
+      { type: 'heading', content: "Saúde Metabólica e Energia Inabalável" },
+      { type: 'paragraph', content: "Muitos usuários descrevem uma transição de picos e quedas de energia para um nível de energia estável e consistente ao longo do dia. Isso se deve à adaptação do corpo para usar gordura como combustível, uma fonte de energia mais duradoura. Os benefícios metabólicos incluem:" },
+      { type: 'list', content: [
+        "Melhora nos níveis de triglicerídeos e aumento do colesterol HDL ('bom').",
+        "Redução drástica da inflamação sistêmica, medida por marcadores como a Proteína C-Reativa (PCR).",
+        "Eliminação de desconfortos digestivos como inchaço, gases e síndrome do intestino irritável para muitos indivíduos."
+      ]},
+      
+      { type: 'heading', content: "Clareza Mental, Foco e Saúde Emocional" },
+      { type: 'paragraph', content: "O cérebro funciona excepcionalmente bem com cetonas, a fonte de energia derivada da gordura. Muitos iniciantes relatam o fim da 'névoa mental' e uma melhora significativa na concentração e memória. Isso ocorre porque a dieta:" },
+      { type: 'list', content: [
+        "Evita picos de glicose que causam flutuações de humor e energia mental.",
+        "Fornece um fluxo constante de cetonas e aminoácidos essenciais (como a tirosina) que são precursores de neurotransmissores como a dopamina.",
+        "Reduz a neuroinflamação, um fator que pode contribuir para a depressão e ansiedade."
+      ]},
+      
+      { type: 'heading', content: "Outros Benefícios Notáveis" },
+      { type: 'paragraph', content: "Além dos principais benefícios, muitos usuários relatam melhorias em outras áreas:"},
+      { type: 'list', content: [
+        "Saúde da Pele: Redução de acne, eczema e psoríase devido à diminuição da inflamação.",
+        "Doenças Autoimunes: Relatos de remissão ou melhora significativa em condições como artrite reumatoide, lúpus e doenças inflamatórias intestinais.",
+        "Equilíbrio Hormonal: A ingestão adequada de gorduras saudáveis e colesterol é crucial para a produção de hormônios sexuais como testosterona e estrogênio."
+      ]}
     ],
   },
   {
@@ -48,23 +70,34 @@ export const modules: Module[] = [
     icon: "⚠️",
     content: [
       { type: 'heading', content: "Aviso Importante: Consulte Seu Médico Antes de Iniciar!" },
-      { type: 'paragraph', content: "A dieta carnívora é uma abordagem dietética restritiva e pode não ser adequada para todos. É fundamental buscar orientação de um profissional de saúde qualificado (médico ou nutricionista) antes de iniciar qualquer mudança dietética significativa. Este material não substitui a consulta médica." },
-      { type: 'heading', content: "Possíveis Deficiências Nutricionais" },
-      { type: 'paragraph', content: "A ausência de vegetais e frutas pode gerar deficiências em alguns micronutrientes se não houver planejamento e suplementação adequados, sob orientação profissional:" },
+      { type: 'paragraph', content: "A dieta carnívora é uma abordagem restritiva e pode não ser adequada para todos. É fundamental buscar orientação de um profissional de saúde qualificado antes de iniciar. Este guia é informativo e não substitui uma consulta médica." },
+      
+      { type: 'heading', content: "Período de Adaptação: A 'Gripe Keto' ou 'Carnivore Flu'" },
+      { type: 'paragraph', content: "O corpo pode levar de 2 a 6 semanas para se adaptar. Durante essa transição de queimar glicose para queimar gordura, é comum sentir sintomas temporários. Gerenciá-los é a chave para uma transição bem-sucedida." },
       { type: 'list', content: [
-        "Vitamina C: Essencial para imunidade e colágeno; pode ser obtida em pequenas quantidades de carnes cruas ou fígado. A deficiência prolongada pode levar a problemas sérios.",
-        "Fibra Alimentar: A ausência de vegetais reduz drasticamente a ingestão de fibra. É crucial observar a consistência intestinal e manter hidratação adequada.",
-        "Minerais Específicos: Cálcio, magnésio e potássio podem ser insuficientes. Monitoramento laboratorial é recomendado."
+        "Dias 1-3: Fadiga, dores de cabeça, náuseas e irritabilidade. Solução: Aumente drasticamente a ingestão de sal (sal marinho ou rosa) e água. Seu corpo está perdendo água e eletrólitos.",
+        "Dias 4-7: Mudanças no padrão intestinal (diarreia ou constipação) e cãibras musculares. Solução: Para diarreia, reduza a gordura renderizada (líquida) e coma mais gordura sólida. Para constipação, aumente a gordura. Considere um suplemento de magnésio para cãibras.",
+        "Semanas 2-4: Paladar e saciedade se ajustam. A aversão a certos alimentos pode ocorrer. Solução: Ouça seu corpo. Coma até a saciedade e não se force a comer se não estiver com fome. A 'fome de carboidratos' diminui drasticamente aqui."
       ]},
-      { type: 'heading', content: "Período de Adaptação e Sinais de Alerta ('Keto Flu')" },
-      { type: 'paragraph', content: "O corpo pode levar de 2 a 6 semanas para se adaptar totalmente. Durante esse período, é comum sentir fadiga, dores de cabeça, mudanças no padrão intestinal e cãibras musculares. Mantenha hidratação adequada e ingestão de sal/eletrólitos para compensar perdas." },
+      
+      { type: 'heading', content: "Desafios Sociais e Psicológicos" },
+      { type: 'paragraph', content: "Explicar sua dieta para amigos e familiares pode ser desafiador. Prepare respostas simples e focadas nos seus resultados. Ex: 'Estou focando em alimentos integrais para melhorar minha saúde' ou 'Estou fazendo uma dieta de eliminação para resolver problemas digestivos'." },
+
+      { type: 'heading', content: "Monitoramento e Exames Laboratoriais" },
+      { type: 'paragraph', content: "É prudente fazer exames de sangue antes de iniciar e após 3-6 meses para monitorar como seu corpo está respondendo. Discuta com seu médico exames como:" },
+      { type: 'list', content: [
+          "Hemograma completo",
+          "Perfil lipídico (Colesterol Total, HDL, LDL, Triglicerídeos)",
+          "Função renal e hepática",
+          "Vitaminas e Minerais (Vitamina D, B12, Ferro, Magnésio)"
+       ]},
+      
       { type: 'heading', content: "Quando a Supervisão Médica é Indispensável" },
        { type: 'list', content: [
           "Se você tem condições crônicas como diabetes (especialmente tipo 1), hipertensão, problemas renais ou hepáticos.",
-          "Se usa medicações contínuas que possam ser afetadas pela dieta (para pressão arterial, glicemia, etc.).",
+          "Se usa medicações contínuas que possam ser afetadas pela dieta.",
           "Se possui histórico de transtornos alimentares.",
-          "Se está grávida, amamentando ou é uma criança/adolescente.",
-          "Se planeja seguir a dieta por longos períodos sem monitoramento."
+          "Se está grávida, amamentando ou é uma criança/adolescente."
        ]}
     ],
   },
@@ -74,27 +107,30 @@ export const modules: Module[] = [
     subtitle: "Plano de ação para as primeiras semanas.",
     icon: "🚀",
     content: [
-      { type: 'heading', content: "Preparação Mental e Física para uma Transição Suave" },
-      { type: 'paragraph', content: "Antes de iniciar, prepare corpo e mente para as mudanças. Entenda que a dieta exige disciplina inicial e esteja ciente dos desafios da fase de adaptação. Faça uma lista de objetivos claros para se manter motivado." },
-      { type: 'heading', content: "Estratégias de Transição Gradual (2-3 Semanas)" },
-      { type: 'paragraph', content: "Para minimizar os efeitos da 'gripe low-carb' ou 'keto flu', considere uma transição em etapas. Isso permite que seu corpo se adapte progressivamente." },
+      { type: 'heading', content: "Preparação: A Chave para o Sucesso" },
+      { type: 'paragraph', content: "Antes de comer sua primeira refeição carnívora, prepare seu ambiente. Limpe sua despensa de alimentos não permitidos para evitar tentações. Faça uma lista de compras e abasteça sua geladeira e freezer." },
+      
+      { type: 'heading', content: "Montando sua Cozinha Carnívora" },
       { type: 'list', content: [
-          "Semana 1: Redução de Carboidratos Processados. Comece eliminando açúcares, grãos refinados (pães, massas), legumes e frutas ricas em amido. Foque em proteínas, gorduras saudáveis e vegetais de baixo carboidrato. Estratégia: Substitua pães por alface em sanduíches, elimine bebidas açucaradas.",
-          "Semana 2: Foco em Alimentos Animais e Eliminação de Vegetais. Reduza drasticamente (ou elimine) todos os vegetais, frutas e laticínios (exceto manteiga/gorduras). Aumente a ingestão de carne, ovos e gorduras animais. Estratégia: Priorize refeições com carne, peixe e ovos. Mantenha hidratação e eletrólitos.",
-          "Semana 3 (Opcional): Carnívora Pura e Ajustes. Siga a dieta carnívora estrita. Observe a digestão e os níveis de energia. Esteja atento aos sintomas de adaptação e ajuste a ingestão de sal/eletrólitos. Estratégia: Experimente diferentes cortes e tipos de carne para variedade de nutrientes."
+        "Utensílios Essenciais: Uma boa frigideira de ferro fundido, uma assadeira, facas afiadas e recipientes para armazenar sobras.",
+        "Despensa Carnívora: Sal de alta qualidade (marinho ou rosa), banha, sebo, manteiga ou ghee. Pimenta do reino e outros temperos simples, se desejar.",
+        "Congelador Abastecido: Compre carne em quantidade quando houver promoções. Congele em porções individuais."
       ]},
-       { type: 'heading', content: "Lista de Alimentos Permitidos" },
-       { type: 'list', content: [
-        "Carnes: Bovina, suína, cordeiro, frango, peixe e frutos do mar.",
-        "Ovos e alguns laticínios integrais (manteiga, queijos duros, ghee).",
-        "Gorduras naturais: Banha, manteiga, sebo, azeite de oliva (opcional).",
-        "Órgãos: Fígado, coração e rins para micronutrientes essenciais."
-       ]},
-       { type: 'heading', content: "Lista de Alimentos Proibidos" },
-       { type: 'list', content: [
-        "Vegetais, frutas, grãos, leguminosas, nozes e sementes.",
-        "Açúcares refinados, industrializados e bebidas adoçadas.",
-        "Produtos ultraprocessados, óleos vegetais refinados ou ricos em carboidratos."
+      
+      { type: 'heading', content: "Guia de Transição Gradual (Plano de 3 Semanas)" },
+      { type: 'paragraph', content: "Para minimizar os efeitos da 'gripe keto', uma transição em etapas é altamente recomendada." },
+      { type: 'list', content: [
+          "Semana 1: Foco em Keto Limpo. Elimine açúcares, grãos, sementes e legumes. Coma carnes, ovos, gorduras saudáveis e vegetais de baixo carboidrato (folhas verdes, brócolis). Cardápio Exemplo: Café da manhã de ovos e bacon; almoço de bife com salada; jantar de salmão com brócolis.",
+          "Semana 2: Elimine os Vegetais. Remova todos os vegetais restantes. Sua dieta agora consiste em carne, peixe, ovos e gorduras. Observe como sua digestão e energia reagem. Cardápio Exemplo: Café da manhã de ovos e linguiça; almoço com sobras de carne; jantar de costeletas de porco.",
+          "Semana 3: Carnívora Pura e Ajustes. Siga a dieta estrita. Comece a experimentar diferentes cortes de carne e órgãos (fígado é um ótimo começo). Ajuste a quantidade de gordura para cima ou para baixo para encontrar seu ponto ideal de saciedade. Cardápio Exemplo: Fígado e ovos pela manhã; hambúrgueres (só carne) no almoço; T-bone steak no jantar."
+      ]},
+
+      { type: 'heading', content: "Como Comprar Carne de Qualidade" },
+      { type: 'paragraph', content: "A qualidade importa. Se possível, procure por:" },
+      { type: 'list', content: [
+        "Carne de Pasto (Grass-Fed): Mais rica em ômega-3 e outros nutrientes.",
+        "Orgânico: Livre de hormônios e antibióticos.",
+        "Açougueiro Local: Construa um relacionamento com seu açougueiro. Eles podem fornecer cortes melhores e informações sobre a origem da carne."
        ]}
     ],
   },
@@ -105,19 +141,21 @@ export const modules: Module[] = [
     icon: "❓",
     content: [
       { type: 'heading', content: "1. Como meu corpo se adapta à dieta carnívora?" },
-      { type: 'paragraph', content: "Nos primeiros dias, é normal sentir fadiga leve, dores de cabeça e alterações no padrão intestinal. Isso acontece porque o corpo está passando de carboidratos para gordura e proteínas como fonte principal de energia. Em geral, a adaptação ocorre entre 2 a 6 semanas, dependendo do metabolismo individual. Dica: aumente gradualmente a ingestão de gordura e mantenha hidratação e sal adequados." },
-      { type: 'heading', content: "2. Posso socializar e comer fora de casa?" },
-      { type: 'paragraph', content: "Sim, com planejamento. Prefira restaurantes de carnes (grelhados ou churrascarias), peça cortes de carne com gordura e evite acompanhamentos vegetais. Explique sua escolha de forma breve, se necessário; muitos entenderão ao ver os resultados positivos." },
-      { type: 'heading', content: "3. É seguro para crianças e adolescentes?" },
-      { type: 'paragraph', content: "A dieta carnívora é geralmente considerada extrema e não é recomendada para crianças e adolescentes sem supervisão e orientação médica rigorosa. Eles estão em fases cruciais de crescimento e desenvolvimento, e uma dieta restritiva pode levar a deficiências nutricionais importantes." },
-      { type: 'heading', content: "4. Como a dieta carnívora afeta o colesterol?" },
-      { type: 'paragraph', content: "Pode haver um aumento tanto do HDL ('colesterol bom') quanto do LDL ('colesterol ruim'). No entanto, muitos defensores da dieta argumentam que a qualidade das partículas de LDL pode mudar para um padrão menos prejudicial (partículas maiores e menos densas). A resposta individual varia e é crucial monitorar os níveis de colesterol com um médico." },
-      { type: 'heading', content: "5. Posso tomar suplementos na dieta carnívora?" },
-      { type: 'paragraph', content: "Uma dieta bem formulada geralmente é muito densa em nutrientes. Suplementos nem sempre são necessários. No entanto, alguns podem considerar suplementos como vitamina D (especialmente se a exposição solar for limitada) e eletrólitos (principalmente durante a fase de adaptação para evitar a 'gripe keto'). Sempre consulte um profissional de saúde." },
-      { type: 'heading', content: "6. Como lidar com constipação intestinal?" },
-      { type: 'paragraph', content: "A constipação pode ocorrer na fase inicial. Para mitigá-la, garanta uma ingestão adequada de gorduras, beba bastante água e certifique-se de consumir eletrólitos suficientes (sódio, potássio, magnésio). Alguns descobrem que comer mais órgãos ou experimentar diferentes cortes de carne pode ajudar." },
-      { type: 'heading', content: "7. A dieta carnívora afeta a performance esportiva?" },
-      { type: 'paragraph', content: "No início, pode haver leve queda de energia, principalmente em atividades de alta intensidade. Com 2–4 semanas de adaptação, muitos relatam energia mais estável, recuperação mais rápida e melhora no foco e resistência. Dica: ajuste a ingestão de gordura para energia suficiente." },
+      { type: 'paragraph', content: "A adaptação leva de 2 a 6 semanas. É o tempo que seu corpo leva para se tornar eficiente em usar gordura como combustível. Sintomas como fadiga e dores de cabeça são comuns no início. A chave é manter a hidratação e o consumo de sal elevados." },
+      { type: 'heading', content: "2. E a falta de fibras? Vou ter constipação?" },
+      { type: 'paragraph', content: "Muitas pessoas descobrem que a fibra não é essencial para a regularidade intestinal e que sua eliminação resolve problemas como inchaço e gases. A constipação inicial geralmente é devido à desidratação ou pouca gordura. Aumente a ingestão de gordura e água." },
+      { type: 'heading', content: "3. Como a dieta carnívora afeta o colesterol?" },
+      { type: 'paragraph', content: "É comum ver um aumento no colesterol total, HDL e LDL. No entanto, o contexto é crucial. Muitos especialistas em dietas low-carb argumentam que, na ausência de inflamação e açúcar alto, o padrão das partículas de LDL muda para um tipo maior e menos denso, considerado menos prejudicial. Monitore com um médico que entenda de dietas low-carb." },
+      { type: 'heading', content: "4. Posso tomar suplementos?" },
+      { type: 'paragraph', content: "Uma dieta carnívora bem formulada, rica em variedade (músculo, órgãos, frutos do mar), é densa em nutrientes. Suplementos de eletrólitos (sódio, potássio, magnésio) podem ser úteis na fase de adaptação. Vitamina D pode ser necessária se a exposição solar for limitada. Consulte sempre um profissional." },
+      { type: 'heading', content: "5. É uma dieta cara?" },
+      { type: 'paragraph', content: "Pode ser mais econômica do que parece. Você elimina gastos com snacks, bebidas açucaradas, alimentos processados e restaurantes. Foque em cortes mais baratos como carne moída, órgãos e compre em quantidade." },
+      { type: 'heading', content: "6. E o tédio alimentar?" },
+      { type: 'paragraph', content: "A variedade é a chave. Rode diferentes tipos de carne (bovina, suína, cordeiro), peixes, frutos do mar e aves. Experimente diferentes métodos de preparo (grelhar, assar, cozinhar lentamente). A simplicidade se torna um prazer, não uma limitação." },
+      { type: 'heading', content: "7. Posso beber álcool?" },
+      { type: 'paragraph', content: "O álcool é, tecnicamente, uma toxina e contém carboidratos. Bebidas destiladas puras (vodka, gin, uísque) são as opções de menor impacto, mas o álcool pode parar a cetose temporariamente e baixar as inibições, levando a escolhas alimentares ruins. O ideal é evitar, especialmente na fase inicial." },
+      { type: 'heading', content: "8. Como a dieta afeta a performance esportiva?" },
+      { type: 'paragraph', content: "Após a adaptação de 2-4 semanas, muitos atletas relatam resistência infinita e recuperação mais rápida. Para atividades de alta intensidade, pode ser necessário um período de ajuste mais longo ou um foco estratégico em consumir gordura antes do treino." }
     ],
   },
   {
@@ -147,8 +185,12 @@ export const modules: Module[] = [
     subtitle: "Estime suas necessidades diárias.",
     icon: "📊",
     content: [
-      { type: 'heading', content: "Calcule Seus Macros" },
+      { type: 'heading', content: "Calcule Seus Macros Carnívoros" },
       { type: 'paragraph', content: "Use a ferramenta abaixo para obter uma estimativa de suas necessidades diárias de proteína e gordura. Lembre-se que estes são pontos de partida; ouça seu corpo e ajuste conforme necessário para atingir seus objetivos de saciedade e energia." },
+      { type: 'heading', content: "Entendendo os Resultados" },
+      { type: 'paragraph', content: "Proteína: Essencial para a construção e reparo muscular, e para a saciedade. A meta geralmente fica entre 1.8g a 2.2g por quilo de peso corporal, dependendo do seu objetivo." },
+      { type: 'paragraph', content: "Gordura: Sua principal fonte de energia. A quantidade de gordura é a principal variável que você ajustará. Coma mais gordura para mais energia e saciedade; coma menos se o objetivo for perda de peso e você quiser que seu corpo use a gordura armazenada." },
+      { type: 'paragraph', content: "Calorias: Na dieta carnívora, as calorias são um resultado, e não um alvo. Foque em atingir sua meta de proteína e ajustar a gordura conforme a fome. Comer até a saciedade é a regra mais importante." }
     ]
   }
 ];
