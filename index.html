@@ -2,8 +2,18 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guia para iniciantes na dieta carnívora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Guia Definitivo: Dieta Carnívora</title>
+    <meta name="description" content="App completo para iniciantes na Dieta Carnívora. Receitas, planos, calculadora de macros e diário de progresso.">
+    
+    <!-- Open Graph / Facebook / WhatsApp Display -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Guia Definitivo: Dieta Carnívora para Iniciantes">
+    <meta property="og:description" content="Acesse seu guia interativo completo. +80 Receitas, Ferramentas e Ciência.">
+    <meta property="og:site_name" content="Keto Carnívoro">
+    <!-- Cor do tema para mobile -->
+    <meta name="theme-color" content="#D4AF37">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -21,6 +31,20 @@
             fontFamily: {
               'sans': ['Inter', 'sans-serif'],
               'serif': ['Lora', 'serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
             }
           }
         }
@@ -28,13 +52,13 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/"
   }
 }
 </script>
